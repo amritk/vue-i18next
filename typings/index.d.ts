@@ -1,10 +1,10 @@
-import { i18n, TranslationFunction, TranslationOptions } from "i18next";
+import i18n from "i18next";
 import Vue, { PluginFunction } from "vue";
 
 declare class VueI18Next {
-  constructor(i18next: i18n, options?: VueI18NextOptions);
-  i18next: i18n;
-  t: TranslationFunction;
+  constructor(i18next: i18n.i18n, options?: VueI18NextOptions);
+  i18next: i18n.i18n;
+  t: i18n.TranslationFunction;
   resetVm: ({  }: { i18nLoadedAt: Date }) => void;
   i18nLoadedAt: string;
   onI18nChanged: () => void;
@@ -13,7 +13,7 @@ declare class VueI18Next {
   static version: string;
 }
 
-export interface VueI18NextOptions extends TranslationOptions {
+export interface VueI18NextOptions extends i18n.TranslationOptions {
   bindI18n?: string;
   bindStore?: string;
   loadComponentNamespace?: boolean;
@@ -36,7 +36,7 @@ declare module "vue/types/options" {
 declare module "vue/types/vue" {
   interface Vue {
     readonly $i18n: VueI18Next;
-    $t: TranslationFunction;
+    $t: i18n.TranslationFunction;
   }
 }
 

@@ -38,11 +38,10 @@
   "main": "./dist/vue-i18next.js",
   "types": "typings/index.d.ts",
   "peerDependencies": {
-    "i18next": ">= 6.0.1",
+    "i18next": ">= 13.0.0",
     "vue": ">=2.0.0"
   },
   "devDependencies": {
-    "@types/i18next": "^8.4.3",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.0.0",
     "babel-eslint": "^6.1.2",
@@ -64,7 +63,7 @@
     "eslint-plugin-react": "^6.8.0",
     "file-loader": "^0.9.0",
     "gh-pages": "^1.0.0",
-    "i18next": "^6.0.1",
+    "i18next": "^13.0.0",
     "jasmine": "^2.5.3",
     "jasmine-core": "^2.5.2",
     "karma": "^1.4.1",

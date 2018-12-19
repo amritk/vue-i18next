@@ -702,10 +702,6 @@
     "@shellscape/koa-send" "^4.1.0"
     debug "^2.6.8"
 
-"@types/i18next@^8.4.3":
-  version "8.4.3"
-  resolved "https://registry.yarnpkg.com/@types/i18next/-/i18next-8.4.3.tgz#9136a9551bf5bf7169aa9f3125c1743f1f8dd6de"
-
 "@vue/babel-preset-app@3.0.0-beta.11":
   version "3.0.0-beta.11"
   resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-3.0.0-beta.11.tgz#c8b889aa73464050f9cd3f9dc621951d85c24508"
@@ -5072,9 +5068,10 @@ https-proxy-agent@^1.0.0, https-proxy-agent@~1.0.0:
     debug "2"
     extend "3"
 
-i18next@^6.0.1:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-6.1.2.tgz#8d09e2b77e59099db54f1cffd03a80b3e428c85a"
+i18next@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-13.0.0.tgz#3d8de7ff3c2cf23cd6d91c4d5861c4756d8a73c6"
+  integrity sha512-P8SDA5PN4bI5/ZdLE2AlanZhU+eXh31icrojQvbGcG7jovoDoz79eKY9mSgQ0LAeuDFKAw4Vl4mGf1/EWGFACg==
 
 iconv-lite@0.4.15:
   version "0.4.15"
